@@ -16,14 +16,13 @@ function Footer() {
             <h2>Contact Us</h2>
           </div>
         </div>
-        
       </div>
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               Univeristy.Edu
-              <i class="fab fa-typo3" />
+              <i class="fas fa-school" />
             </Link>
           </div>
           <small class="website-rights">Uni.Edu © 2023</small>

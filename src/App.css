@@ -13,26 +13,22 @@
   height: 90vh;
 }
 
+.admin-wrap{
+  background-image: url('/images/chalk.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
 .home,
-.services,
-.products,
 .students,
-.admin,
-.sign-up {
+.admin {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
-
-.services {
-  background-image: url('/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
 .students {
@@ -48,23 +44,6 @@
   background-image: url('/images/chalk.jpeg');
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-.products {
-  background-image: url('/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  background-image: url('/images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
@@ -89,10 +68,12 @@ label {
 input { 
   border: none;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
-  text-align: ce;
+  text-align: center;
   color: blue;
+  border-color: #fda085;
+  border-width: 10px;
 }
 
 .link-btn {
@@ -102,9 +83,16 @@ input {
 }
 
 .titles{
-background-color: transparent;
+background-color: black;
+opacity: 75%;
 color:white
 }
+
+.adminTitles{
+  background-color: black;
+  opacity: 75%;
+  color:white
+  }
 
 .titles span {
   background-color: black;
@@ -122,3 +110,19 @@ color:white
 .fields {
 vertical-align: center;;
 }
+
+.logButton {
+  margin: 10px;
+  padding: 15px;
+  font-size: large;
+  width: 20vh;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #fda085, transparent) #f6d365 ; 
+  transition: 1s;
+}
+
+.logButton:hover, .logButton:focus {
+  background-color: #e91e63;
+  cursor: pointer;
+}
+
